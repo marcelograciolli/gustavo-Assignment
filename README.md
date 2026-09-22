@@ -32,7 +32,7 @@ npm install
 npm run dev
 ```
 
-Dev local deste protótipo: [http://localhost:61230](http://localhost:61230) (porta do Claude Code; `:3000` pode estar ocupada por outro projeto).
+Dev local: [http://localhost:61230](http://localhost:61230) (`npm run dev` já usa a porta **61230** — `:3000` fica livre para o Canal Vibra NEXT).
 
 ## Build de produção
 

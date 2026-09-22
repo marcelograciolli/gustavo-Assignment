@@ -45,3 +45,6 @@ next-env.d.ts
 
 # imagens locais antigas (catálogo usa URLs remotas)
 /public/products/
+
+AGENTS.md
+CLAUDE.md
