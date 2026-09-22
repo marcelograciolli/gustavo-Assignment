@@ -3,7 +3,34 @@ import CategoryShortcuts from "@/components/CategoryShortcuts";
 import ProductCarousel from "@/components/ProductCarousel";
 import HeroSlideshow from "@/components/HeroSlideshow";
 import BannerGrid from "@/components/BannerGrid";
+import BannerPair from "@/components/BannerPair";
 import Icon from "@/components/Icon";
+
+const BANNER_PAIR_1 = [
+  {
+    id: "nutribem",
+    src: "/banners/pair/banner-left.png",
+    alt: "Semana do cliente Nutribem — leve 4 pague 3",
+  },
+  {
+    id: "sorvete",
+    src: "/banners/pair/banner-right.png",
+    alt: "Semana do sorvete — 30% off nas coberturas",
+  },
+] as const;
+
+const BANNER_PAIR_2 = [
+  {
+    id: "cervejas",
+    src: "/banners/pair2/banner-left.png",
+    alt: "Festival de bebidas — cervejas com até 20% off",
+  },
+  {
+    id: "higiene",
+    src: "/banners/pair2/banner-right.png",
+    alt: "Higiene bucal — seleção de enxaguantes com até 40% off",
+  },
+] as const;
 
 export default function Home() {
   const deals = getDeals();
@@ -24,7 +51,40 @@ export default function Home() {
 
       <BannerGrid />
 
-      {categories.map((categoria) => (
+      {categories.slice(0, 2).map((categoria) => (
+        <ProductCarousel
+          key={categoria}
+          title={categoria}
+          products={getProductsByCategory(categoria)}
+          seeAllHref={`/produtos?categoria=${encodeURIComponent(categoria)}`}
+        />
+      ))}
+
+      <BannerPair banners={BANNER_PAIR_1} ariaLabel="Campanhas Nutribem e sorvete" />
+
+      {categories.slice(2, 4).map((categoria) => (
+        <ProductCarousel
+          key={categoria}
+          title={categoria}
+          products={getProductsByCategory(categoria)}
+          seeAllHref={`/produtos?categoria=${encodeURIComponent(categoria)}`}
+        />
+      ))}
+
+      <BannerPair banners={BANNER_PAIR_2} ariaLabel="Campanhas bebidas e higiene bucal" />
+
+      {categories.slice(4, -2).map((categoria) => (
+        <ProductCarousel
+          key={categoria}
+          title={categoria}
+          products={getProductsByCategory(categoria)}
+          seeAllHref={`/produtos?categoria=${encodeURIComponent(categoria)}`}
+        />
+      ))}
+
+      <BannerGrid />
+
+      {categories.slice(-2).map((categoria) => (
         <ProductCarousel
           key={categoria}
           title={categoria}

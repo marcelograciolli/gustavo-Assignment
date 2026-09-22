@@ -1,27 +1,25 @@
+import Image from "next/image";
+
 const BANNERS = [
   {
     id: "A",
-    label: "Banner A — placeholder",
-    bg: "bg-gradient-to-br from-brand-700 to-brand-500",
-    text: "text-white",
+    src: "/banners/banner-a.png",
+    alt: "Refrigerantes imperdíveis a partir de R$ 2,78",
   },
   {
     id: "B",
-    label: "Banner B — placeholder",
-    bg: "bg-gradient-to-br from-accent-600 to-accent-500",
-    text: "text-white",
+    src: "/banners/banner-b.png",
+    alt: "Mais sabor na sua mesa com até 35% off",
   },
   {
     id: "C",
-    label: "Banner C — placeholder",
-    bg: "bg-gradient-to-br from-felix-amarelo to-accent-400",
-    text: "text-slate-900",
+    src: "/banners/banner-c.png",
+    alt: "Sua limpeza rende mais com até 30% off",
   },
   {
     id: "D",
-    label: "Banner D — placeholder",
-    bg: "bg-gradient-to-br from-brand-500 to-felix-verde",
-    text: "text-white",
+    src: "/banners/banner-d.png",
+    alt: "Cuidado especial para seu pet com até 25% off",
   },
 ] as const;
 
@@ -32,11 +30,15 @@ export default function BannerGrid() {
         {BANNERS.map((banner) => (
           <div
             key={banner.id}
-            className={`aspect-video rounded-lg ${banner.bg} flex items-center justify-center px-4`}
+            className="relative aspect-[1003/1568] overflow-hidden rounded-lg bg-slate-100"
           >
-            <p className={`text-center text-sm sm:text-base font-semibold ${banner.text}`}>
-              {banner.label}
-            </p>
+            <Image
+              src={banner.src}
+              alt={banner.alt}
+              fill
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+              className="object-cover"
+            />
           </div>
         ))}
       </div>
