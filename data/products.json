@@ -1,0 +1,819 @@
+[
+  {
+    "id": "1",
+    "slug": "banana-prata",
+    "nome": "Banana Prata",
+    "preco": 6.99,
+    "precoOriginal": 8.99,
+    "unidade": "kg",
+    "categoria": "Hortifruti",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/646/33084646.png?im=Resize,width=800",
+    "descricao": "Banana prata fresca, selecionada diretamente do produtor. Rica em potássio e fibras, ideal para o café da manhã ou lanches."
+  },
+  {
+    "id": "2",
+    "slug": "tomate-italiano",
+    "nome": "Tomate Italiano",
+    "preco": 8.49,
+    "unidade": "kg",
+    "categoria": "Hortifruti",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/521/33062521.png?im=Resize,width=800",
+    "descricao": "Tomate italiano maduro no ponto certo, perfeito para molhos, saladas e refeições do dia a dia."
+  },
+  {
+    "id": "3",
+    "slug": "alface-crespa",
+    "nome": "Alface Crespa",
+    "preco": 3.49,
+    "unidade": "un",
+    "categoria": "Hortifruti",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/607/33062607.png?im=Resize,width=800",
+    "descricao": "Alface crespa fresca e crocante, colhida diariamente. Ótima opção para saladas leves e saudáveis."
+  },
+  {
+    "id": "4",
+    "slug": "maca-gala",
+    "nome": "Maçã Gala",
+    "preco": 9.49,
+    "precoOriginal": 11.49,
+    "unidade": "kg",
+    "categoria": "Hortifruti",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/265/33026265.png?im=Resize,width=800",
+    "descricao": "Maçã gala doce e crocante, ótima fonte de fibras para o lanche da família."
+  },
+  {
+    "id": "5",
+    "slug": "cebola-amarela",
+    "nome": "Cebola Amarela",
+    "preco": 5.99,
+    "unidade": "kg",
+    "categoria": "Hortifruti",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/466/33026466.png?im=Resize,width=800",
+    "descricao": "Cebola amarela selecionada, item essencial no tempero do dia a dia."
+  },
+  {
+    "id": "6",
+    "slug": "batata-inglesa",
+    "nome": "Batata Inglesa",
+    "preco": 6.49,
+    "unidade": "kg",
+    "categoria": "Hortifruti",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/888/32920888.png?im=Resize,width=800",
+    "descricao": "Batata inglesa lavada, ideal para fritar, cozinhar ou assar."
+  },
+  {
+    "id": "7",
+    "slug": "cenoura",
+    "nome": "Cenoura",
+    "preco": 4.99,
+    "unidade": "kg",
+    "categoria": "Hortifruti",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/492/33035492.jpg?im=Resize,width=800",
+    "descricao": "Cenoura fresca e crocante, rica em vitamina A."
+  },
+  {
+    "id": "8",
+    "slug": "laranja-pera",
+    "nome": "Laranja Pera",
+    "preco": 5.49,
+    "unidade": "kg",
+    "categoria": "Hortifruti",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/196/33029196.png?im=Resize,width=800",
+    "descricao": "Laranja pera suculenta, ótima para sucos naturais."
+  },
+  {
+    "id": "9",
+    "slug": "mamao-formosa",
+    "nome": "Mamão Formosa",
+    "preco": 7.99,
+    "unidade": "kg",
+    "categoria": "Hortifruti",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/104/33026104.png?im=Resize,width=800",
+    "descricao": "Mamão formosa doce e maduro, rico em vitaminas e fibras."
+  },
+  {
+    "id": "10",
+    "slug": "pepino-japones",
+    "nome": "Pepino Japonês",
+    "preco": 4.49,
+    "unidade": "kg",
+    "categoria": "Hortifruti",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/731/33028731.png?im=Resize,width=800",
+    "descricao": "Pepino japonês fresco e crocante, perfeito para saladas."
+  },
+  {
+    "id": "11",
+    "slug": "pao-frances",
+    "nome": "Pão Francês",
+    "preco": 1.29,
+    "precoOriginal": 1.69,
+    "unidade": "un",
+    "categoria": "Padaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/293/32986293.png?im=Resize,width=800",
+    "descricao": "Pão francês fresquinho, assado todos os dias em nossa padaria. Casquinha crocante e miolo macio."
+  },
+  {
+    "id": "12",
+    "slug": "pao-de-forma-integral",
+    "nome": "Pão de Forma Integral",
+    "preco": 9.99,
+    "unidade": "un",
+    "categoria": "Padaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/72/33056072.png?im=Resize,width=800",
+    "descricao": "Pão de forma integral, fonte de fibras, ideal para um café da manhã mais saudável."
+  },
+  {
+    "id": "13",
+    "slug": "croissant",
+    "nome": "Croissant",
+    "preco": 6.99,
+    "precoOriginal": 8.49,
+    "unidade": "un",
+    "categoria": "Padaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/324/32966324.png?im=Resize,width=800",
+    "descricao": "Croissant amanteigado, assado fresco todas as manhãs."
+  },
+  {
+    "id": "14",
+    "slug": "bolo-de-fuba",
+    "nome": "Bolo de Fubá",
+    "preco": 14.9,
+    "unidade": "un",
+    "categoria": "Padaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/139/33079139.png?im=Resize,width=800",
+    "descricao": "Bolo de fubá caseiro, macio e levemente doce."
+  },
+  {
+    "id": "15",
+    "slug": "pao-doce",
+    "nome": "Pão Doce",
+    "preco": 3.49,
+    "unidade": "un",
+    "categoria": "Padaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/776/33068776.png?im=Resize,width=800",
+    "descricao": "Pão doce recheado, perfeito para o café da tarde."
+  },
+  {
+    "id": "16",
+    "slug": "baguete",
+    "nome": "Baguete",
+    "preco": 5.99,
+    "unidade": "un",
+    "categoria": "Padaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/436/33059436.png?im=Resize,width=800",
+    "descricao": "Baguete artesanal, casca crocante e miolo aerado."
+  },
+  {
+    "id": "17",
+    "slug": "pao-integral-light",
+    "nome": "Pão Integral Light",
+    "preco": 11.49,
+    "unidade": "un",
+    "categoria": "Padaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/292/33048292.png?im=Resize,width=800",
+    "descricao": "Pão integral light, baixo teor de gordura e rico em fibras."
+  },
+  {
+    "id": "18",
+    "slug": "rosca-de-canela",
+    "nome": "Rosca de Canela",
+    "preco": 12.9,
+    "unidade": "un",
+    "categoria": "Padaria",
+    "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Cinnamon-Roll-US-Bakery.jpg/960px-Cinnamon-Roll-US-Bakery.jpg",
+    "descricao": "Rosca de canela com cobertura de açúcar, feita na hora."
+  },
+  {
+    "id": "19",
+    "slug": "pao-de-queijo-congelado",
+    "nome": "Pão de Queijo Congelado",
+    "preco": 18.9,
+    "unidade": "kg",
+    "categoria": "Padaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/219/33056219.png?im=Resize,width=800",
+    "descricao": "Pão de queijo mineiro congelado, pronto para assar em casa."
+  },
+  {
+    "id": "20",
+    "slug": "torta-de-frango",
+    "nome": "Torta de Frango",
+    "preco": 22.9,
+    "unidade": "un",
+    "categoria": "Padaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/219/33080219.png?im=Resize,width=800",
+    "descricao": "Torta de frango caseira, massa amanteigada e recheio cremoso."
+  },
+  {
+    "id": "21",
+    "slug": "arroz-branco-tipo-1",
+    "nome": "Arroz Branco Tipo 1",
+    "preco": 24.9,
+    "precoOriginal": 29.9,
+    "unidade": "5kg",
+    "categoria": "Mercearia",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/393/33065393.png?im=Resize,width=800",
+    "descricao": "Arroz branco tipo 1, grãos soltinhos e selecionados. Pacote de 5kg, ideal para toda a família."
+  },
+  {
+    "id": "22",
+    "slug": "feijao-carioca",
+    "nome": "Feijão Carioca",
+    "preco": 8.79,
+    "unidade": "1kg",
+    "categoria": "Mercearia",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/791/33028791.jpeg?im=Resize,width=800",
+    "descricao": "Feijão carioca de primeira qualidade, rico em proteínas e fibras, presente na mesa dos brasileiros."
+  },
+  {
+    "id": "23",
+    "slug": "cafe-torrado-e-moido",
+    "nome": "Café Torrado e Moído",
+    "preco": 14.5,
+    "unidade": "500g",
+    "categoria": "Mercearia",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/403/33028403.png?im=Resize,width=800",
+    "descricao": "Café torrado e moído tradicional, sabor encorpado e aroma marcante para começar bem o dia."
+  },
+  {
+    "id": "24",
+    "slug": "acucar-refinado",
+    "nome": "Açúcar Refinado",
+    "preco": 4.99,
+    "precoOriginal": 6.29,
+    "unidade": "1kg",
+    "categoria": "Mercearia",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/236/33029236.jpg?im=Resize,width=800",
+    "descricao": "Açúcar refinado especial, ideal para o dia a dia e receitas doces."
+  },
+  {
+    "id": "25",
+    "slug": "oleo-de-soja",
+    "nome": "Óleo de Soja",
+    "preco": 7.99,
+    "unidade": "900ml",
+    "categoria": "Mercearia",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/232/33025232.png?im=Resize,width=800",
+    "descricao": "Óleo de soja, indicado para frituras e preparo de refeições."
+  },
+  {
+    "id": "26",
+    "slug": "macarrao-espaguete",
+    "nome": "Macarrão Espaguete",
+    "preco": 5.49,
+    "unidade": "500g",
+    "categoria": "Mercearia",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/568/33082568.png?im=Resize,width=800",
+    "descricao": "Macarrão espaguete tipo grano duro, cozimento rápido e uniforme."
+  },
+  {
+    "id": "27",
+    "slug": "molho-de-tomate",
+    "nome": "Molho de Tomate",
+    "preco": 3.29,
+    "unidade": "340g",
+    "categoria": "Mercearia",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/823/33052823.png?im=Resize,width=800",
+    "descricao": "Molho de tomate tradicional, pronto para uso em massas e receitas."
+  },
+  {
+    "id": "28",
+    "slug": "farinha-de-trigo",
+    "nome": "Farinha de Trigo",
+    "preco": 6.99,
+    "unidade": "1kg",
+    "categoria": "Mercearia",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/121/33027121.png?im=Resize,width=800",
+    "descricao": "Farinha de trigo especial, ideal para pães, bolos e massas caseiras."
+  },
+  {
+    "id": "29",
+    "slug": "sal-refinado",
+    "nome": "Sal Refinado",
+    "preco": 2.49,
+    "unidade": "1kg",
+    "categoria": "Mercearia",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/875/33029875.jpg?im=Resize,width=800",
+    "descricao": "Sal refinado iodado, essencial na cozinha de qualquer família."
+  },
+  {
+    "id": "30",
+    "slug": "extrato-de-tomate",
+    "nome": "Extrato de Tomate",
+    "preco": 3.79,
+    "unidade": "340g",
+    "categoria": "Mercearia",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/954/33053954.png?im=Resize,width=800",
+    "descricao": "Extrato de tomate concentrado, base para molhos encorpados."
+  },
+  {
+    "id": "31",
+    "slug": "agua-mineral-sem-gas",
+    "nome": "Água Mineral sem Gás",
+    "preco": 3.29,
+    "precoOriginal": 4.29,
+    "unidade": "1,5L",
+    "categoria": "Bebidas",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/760/33056760.jpg?im=Resize,width=800",
+    "descricao": "Água mineral natural sem gás, envasada na fonte, ideal para manter a hidratação do dia a dia."
+  },
+  {
+    "id": "32",
+    "slug": "suco-de-laranja-integral",
+    "nome": "Suco de Laranja Integral",
+    "preco": 11.9,
+    "unidade": "1L",
+    "categoria": "Bebidas",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/446/33081446.png?im=Resize,width=800",
+    "descricao": "Suco de laranja integral, sem adição de açúcar, feito com laranjas selecionadas."
+  },
+  {
+    "id": "33",
+    "slug": "refrigerante-cola-2l",
+    "nome": "Refrigerante Cola 2L",
+    "preco": 9.49,
+    "precoOriginal": 11.99,
+    "unidade": "2L",
+    "categoria": "Bebidas",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/495/33042495.png?im=Resize,width=800",
+    "descricao": "Refrigerante sabor cola, clássico para acompanhar as refeições."
+  },
+  {
+    "id": "34",
+    "slug": "cerveja-pilsen-350ml",
+    "nome": "Cerveja Pilsen 350ml",
+    "preco": 4.29,
+    "unidade": "350ml",
+    "categoria": "Bebidas",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/369/33047369.jpeg?im=Resize,width=800",
+    "descricao": "Cerveja pilsen leve e refrescante, servida bem gelada."
+  },
+  {
+    "id": "35",
+    "slug": "agua-de-coco",
+    "nome": "Água de Coco",
+    "preco": 6.99,
+    "unidade": "1L",
+    "categoria": "Bebidas",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/461/33061461.jpg?im=Resize,width=800",
+    "descricao": "Água de coco natural, isotônico refrescante e saudável."
+  },
+  {
+    "id": "36",
+    "slug": "suco-de-uva-integral",
+    "nome": "Suco de Uva Integral",
+    "preco": 13.9,
+    "unidade": "1,5L",
+    "categoria": "Bebidas",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/672/32985672.png?im=Resize,width=800",
+    "descricao": "Suco de uva integral, sabor encorpado e sem conservantes."
+  },
+  {
+    "id": "37",
+    "slug": "cha-gelado-pessego",
+    "nome": "Chá Gelado Pêssego",
+    "preco": 5.49,
+    "unidade": "1,5L",
+    "categoria": "Bebidas",
+    "imagem": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=800&q=80",
+    "descricao": "Chá gelado sabor pêssego, refrescante para os dias quentes."
+  },
+  {
+    "id": "38",
+    "slug": "refrigerante-guarana-2l",
+    "nome": "Refrigerante Guaraná 2L",
+    "preco": 8.99,
+    "unidade": "2L",
+    "categoria": "Bebidas",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/88/33036088.jpg?im=Resize,width=800",
+    "descricao": "Refrigerante sabor guaraná, tradicional queridinho brasileiro."
+  },
+  {
+    "id": "39",
+    "slug": "energetico",
+    "nome": "Energético",
+    "preco": 7.49,
+    "unidade": "473ml",
+    "categoria": "Bebidas",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/950/33037950.png?im=Resize,width=800",
+    "descricao": "Bebida energética para dar aquele gás extra no seu dia."
+  },
+  {
+    "id": "40",
+    "slug": "agua-mineral-com-gas",
+    "nome": "Água Mineral com Gás",
+    "preco": 3.79,
+    "unidade": "1,5L",
+    "categoria": "Bebidas",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/668/33061668.jpg?im=Resize,width=800",
+    "descricao": "Água mineral com gás, opção refrescante para qualquer refeição."
+  },
+  {
+    "id": "41",
+    "slug": "detergente-neutro",
+    "nome": "Detergente Neutro",
+    "preco": 2.49,
+    "unidade": "500ml",
+    "categoria": "Limpeza",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/510/33076510.png?im=Resize,width=800",
+    "descricao": "Detergente neutro concentrado, remove a gordura com eficiência e é suave com as mãos."
+  },
+  {
+    "id": "42",
+    "slug": "sabao-em-po",
+    "nome": "Sabão em Pó",
+    "preco": 17.99,
+    "precoOriginal": 22.99,
+    "unidade": "1kg",
+    "categoria": "Limpeza",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/544/33042544.png?im=Resize,width=800",
+    "descricao": "Sabão em pó de alto poder de limpeza, remove manchas difíceis e deixa as roupas com cheiro agradável."
+  },
+  {
+    "id": "43",
+    "slug": "desinfetante-lavanda",
+    "nome": "Desinfetante Lavanda",
+    "preco": 8.49,
+    "unidade": "1L",
+    "categoria": "Limpeza",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/253/33043253.png?im=Resize,width=800",
+    "descricao": "Desinfetante perfumado, elimina germes e deixa o ambiente com cheiro de lavanda."
+  },
+  {
+    "id": "44",
+    "slug": "agua-sanitaria",
+    "nome": "Água Sanitária",
+    "preco": 5.99,
+    "precoOriginal": 7.49,
+    "unidade": "1L",
+    "categoria": "Limpeza",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/723/33060723.png?im=Resize,width=800",
+    "descricao": "Água sanitária multiuso, desinfeta e alveja com segurança."
+  },
+  {
+    "id": "45",
+    "slug": "amaciante-de-roupas",
+    "nome": "Amaciante de Roupas",
+    "preco": 12.9,
+    "unidade": "2L",
+    "categoria": "Limpeza",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/854/33032854.png?im=Resize,width=800",
+    "descricao": "Amaciante concentrado, deixa as roupas macias e perfumadas por mais tempo."
+  },
+  {
+    "id": "46",
+    "slug": "esponja-multiuso",
+    "nome": "Esponja Multiuso",
+    "preco": 4.49,
+    "unidade": "pacote c/3",
+    "categoria": "Limpeza",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/645/33054645.png?im=Resize,width=800",
+    "descricao": "Esponja multiuso dupla face, ideal para louças e superfícies."
+  },
+  {
+    "id": "47",
+    "slug": "limpador-multiuso",
+    "nome": "Limpador Multiuso",
+    "preco": 9.99,
+    "unidade": "500ml",
+    "categoria": "Limpeza",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/743/33078743.png?im=Resize,width=800",
+    "descricao": "Limpador multiuso concentrado para diversas superfícies da casa."
+  },
+  {
+    "id": "48",
+    "slug": "sabao-em-barra",
+    "nome": "Sabão em Barra",
+    "preco": 6.49,
+    "unidade": "pacote c/5",
+    "categoria": "Limpeza",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/651/33077651.png?im=Resize,width=800",
+    "descricao": "Sabão em barra tradicional, ótimo para tirar manchas difíceis."
+  },
+  {
+    "id": "49",
+    "slug": "papel-higienico-12-rolos",
+    "nome": "Papel Higiênico 12 rolos",
+    "preco": 24.9,
+    "unidade": "12un",
+    "categoria": "Limpeza",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/414/33050414.png?im=Resize,width=800",
+    "descricao": "Papel higiênico folha dupla, super macio e resistente."
+  },
+  {
+    "id": "50",
+    "slug": "saco-de-lixo-30l",
+    "nome": "Saco de Lixo 30L",
+    "preco": 11.9,
+    "unidade": "pacote c/20",
+    "categoria": "Limpeza",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/52/33069052.png?im=Resize,width=800",
+    "descricao": "Saco de lixo reforçado de 30 litros, resistente a vazamentos."
+  },
+  {
+    "id": "51",
+    "slug": "picanha-bovina",
+    "nome": "Picanha Bovina",
+    "preco": 59.9,
+    "precoOriginal": 69.9,
+    "unidade": "kg",
+    "categoria": "Açougue",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/280/33026280.png?im=Resize,width=800",
+    "descricao": "Picanha bovina selecionada, maciez e sabor ideais para o churrasco de fim de semana."
+  },
+  {
+    "id": "52",
+    "slug": "alcatra",
+    "nome": "Alcatra",
+    "preco": 42.9,
+    "unidade": "kg",
+    "categoria": "Açougue",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/268/33046268.png?im=Resize,width=800",
+    "descricao": "Alcatra bovina, corte versátil para grelhar, assar ou fatiar em bifes."
+  },
+  {
+    "id": "53",
+    "slug": "fraldinha",
+    "nome": "Fraldinha",
+    "preco": 39.9,
+    "unidade": "kg",
+    "categoria": "Açougue",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/418/33023418.jpg?im=Resize,width=800",
+    "descricao": "Fraldinha bovina, ótima opção para churrasco, macia e saborosa."
+  },
+  {
+    "id": "54",
+    "slug": "costela-bovina",
+    "nome": "Costela Bovina",
+    "preco": 34.9,
+    "precoOriginal": 39.9,
+    "unidade": "kg",
+    "categoria": "Açougue",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/828/32920828.jpg?im=Resize,width=800",
+    "descricao": "Costela bovina para assados demorados, sabor intenso e suculento."
+  },
+  {
+    "id": "55",
+    "slug": "frango-inteiro",
+    "nome": "Frango Inteiro",
+    "preco": 12.9,
+    "unidade": "kg",
+    "categoria": "Açougue",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/534/33070534.png?im=Resize,width=800",
+    "descricao": "Frango inteiro resfriado, ideal para assar ou preparar caldos."
+  },
+  {
+    "id": "56",
+    "slug": "coxa-e-sobrecoxa-de-frango",
+    "nome": "Coxa e Sobrecoxa de Frango",
+    "preco": 13.9,
+    "unidade": "kg",
+    "categoria": "Açougue",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/63/33038063.png?im=Resize,width=800",
+    "descricao": "Coxa e sobrecoxa de frango, suculentas, perfeitas para o dia a dia."
+  },
+  {
+    "id": "57",
+    "slug": "linguica-toscana",
+    "nome": "Linguiça Toscana",
+    "preco": 19.9,
+    "unidade": "kg",
+    "categoria": "Açougue",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/113/33025113.png?im=Resize,width=800",
+    "descricao": "Linguiça toscana artesanal, tempero equilibrado para churrasco."
+  },
+  {
+    "id": "58",
+    "slug": "carne-moida-patinho",
+    "nome": "Carne Moída Patinho",
+    "preco": 32.9,
+    "unidade": "kg",
+    "categoria": "Açougue",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/773/32898773.jpg?im=Resize,width=800",
+    "descricao": "Carne moída de patinho, magra e versátil para o preparo do dia a dia."
+  },
+  {
+    "id": "59",
+    "slug": "bisteca-suina",
+    "nome": "Bisteca Suína",
+    "preco": 24.9,
+    "unidade": "kg",
+    "categoria": "Açougue",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/636/33023636.jpg?im=Resize,width=800",
+    "descricao": "Bisteca suína fresca, ótima para grelhar ou assar."
+  },
+  {
+    "id": "60",
+    "slug": "file-de-frango",
+    "nome": "Filé de Frango",
+    "preco": 22.9,
+    "unidade": "kg",
+    "categoria": "Açougue",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/981/33024981.jpg?im=Resize,width=800",
+    "descricao": "Filé de peito de frango sem osso, prático para o preparo rápido."
+  },
+  {
+    "id": "61",
+    "slug": "file-de-tilapia",
+    "nome": "Filé de Tilápia",
+    "preco": 34.9,
+    "precoOriginal": 39.9,
+    "unidade": "kg",
+    "categoria": "Peixaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/742/33029742.png?im=Resize,width=800",
+    "descricao": "Filé de tilápia fresco, sem espinhas, prático para grelhar ou empanar."
+  },
+  {
+    "id": "62",
+    "slug": "salmao-fresco",
+    "nome": "Salmão Fresco",
+    "preco": 79.9,
+    "unidade": "kg",
+    "categoria": "Peixaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/128/33025128.jpg?im=Resize,width=800",
+    "descricao": "Salmão fresco em postas, rico em ômega-3, ideal para grelhados."
+  },
+  {
+    "id": "63",
+    "slug": "camarao-medio",
+    "nome": "Camarão Médio",
+    "preco": 54.9,
+    "unidade": "kg",
+    "categoria": "Peixaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/793/33069793.png?im=Resize,width=800",
+    "descricao": "Camarão médio limpo e congelado, perfeito para bobó, risotos e espetinhos."
+  },
+  {
+    "id": "64",
+    "slug": "bacalhau-dessalgado",
+    "nome": "Bacalhau Dessalgado",
+    "preco": 89.9,
+    "precoOriginal": 99.9,
+    "unidade": "kg",
+    "categoria": "Peixaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/615/33052615.png?im=Resize,width=800",
+    "descricao": "Bacalhau já dessalgado, pronto para o preparo, tradição garantida."
+  },
+  {
+    "id": "65",
+    "slug": "sardinha-fresca",
+    "nome": "Sardinha Fresca",
+    "preco": 18.9,
+    "unidade": "kg",
+    "categoria": "Peixaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/681/33029681.png?im=Resize,width=800",
+    "descricao": "Sardinha fresca, ótima opção para grelhar ou fritar."
+  },
+  {
+    "id": "66",
+    "slug": "file-de-merluza",
+    "nome": "Filé de Merluza",
+    "preco": 29.9,
+    "unidade": "kg",
+    "categoria": "Peixaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/291/32906291.png?im=Resize,width=800",
+    "descricao": "Filé de merluza sem espinhas, sabor suave e textura macia."
+  },
+  {
+    "id": "67",
+    "slug": "lula-em-aneis",
+    "nome": "Lula em Anéis",
+    "preco": 44.9,
+    "unidade": "kg",
+    "categoria": "Peixaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/180/32983180.jpg?im=Resize,width=800",
+    "descricao": "Lula em anéis, pronta para empanar ou grelhar."
+  },
+  {
+    "id": "68",
+    "slug": "polvo-cozido",
+    "nome": "Polvo Cozido",
+    "preco": 99.9,
+    "unidade": "kg",
+    "categoria": "Peixaria",
+    "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Cooked_baby_octopus_at_Nishiki_Market.jpg/960px-Cooked_baby_octopus_at_Nishiki_Market.jpg",
+    "descricao": "Polvo já cozido, prático para saladas e petiscos."
+  },
+  {
+    "id": "69",
+    "slug": "atum-fresco",
+    "nome": "Atum Fresco",
+    "preco": 69.9,
+    "unidade": "kg",
+    "categoria": "Peixaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/467/33023467.jpg?im=Resize,width=800",
+    "descricao": "Atum fresco em postas, ideal para selar ou grelhar."
+  },
+  {
+    "id": "70",
+    "slug": "mexilhao-limpo",
+    "nome": "Mexilhão Limpo",
+    "preco": 39.9,
+    "unidade": "kg",
+    "categoria": "Peixaria",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/179/32983179.jpg?im=Resize,width=800",
+    "descricao": "Mexilhão limpo e congelado, pronto para risotos e ensopados."
+  },
+  {
+    "id": "71",
+    "slug": "racao-para-caes-adultos",
+    "nome": "Ração para Cães Adultos",
+    "preco": 89.9,
+    "precoOriginal": 99.9,
+    "unidade": "10,1kg",
+    "categoria": "Pet Care",
+    "imagem": "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=800&q=80",
+    "descricao": "Ração completa para cães adultos, com carne e cereais selecionados."
+  },
+  {
+    "id": "72",
+    "slug": "racao-para-gatos-castrados",
+    "nome": "Ração para Gatos Castrados",
+    "preco": 64.9,
+    "unidade": "3kg",
+    "categoria": "Pet Care",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/680/33078680.png?im=Resize,width=800",
+    "descricao": "Ração formulada para gatos castrados, ajuda no controle de peso."
+  },
+  {
+    "id": "73",
+    "slug": "areia-higienica-para-gatos",
+    "nome": "Areia Higiênica para Gatos",
+    "preco": 34.9,
+    "precoOriginal": 39.9,
+    "unidade": "4kg",
+    "categoria": "Pet Care",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/12/33066012.jpg?im=Resize,width=800",
+    "descricao": "Areia sílica de alta absorção, controla odores por mais tempo."
+  },
+  {
+    "id": "74",
+    "slug": "petisco-ossinho-natural",
+    "nome": "Petisco Ossinho Natural",
+    "preco": 14.9,
+    "unidade": "un",
+    "categoria": "Pet Care",
+    "imagem": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80",
+    "descricao": "Petisco natural para cães, ajuda na limpeza dos dentes."
+  },
+  {
+    "id": "75",
+    "slug": "shampoo-para-caes-e-gatos",
+    "nome": "Shampoo para Cães e Gatos",
+    "preco": 24.9,
+    "unidade": "500ml",
+    "categoria": "Pet Care",
+    "imagem": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=800&q=80",
+    "descricao": "Shampoo neutro, limpa e perfuma o pelo sem ressecar a pele."
+  },
+  {
+    "id": "76",
+    "slug": "brinquedo-mordedor",
+    "nome": "Brinquedo Mordedor",
+    "preco": 19.9,
+    "unidade": "un",
+    "categoria": "Pet Care",
+    "imagem": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Dog_with_Chew_Toy.png/960px-Dog_with_Chew_Toy.png",
+    "descricao": "Brinquedo resistente para cães, estimula a mastigação saudável."
+  },
+  {
+    "id": "77",
+    "slug": "coleira-ajustavel",
+    "nome": "Coleira Ajustável",
+    "preco": 29.9,
+    "unidade": "un",
+    "categoria": "Pet Care",
+    "imagem": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=800&q=80",
+    "descricao": "Coleira ajustável em nylon, confortável e resistente."
+  },
+  {
+    "id": "78",
+    "slug": "areia-sanitaria-para-roedores",
+    "nome": "Areia Sanitária para Roedores",
+    "preco": 17.9,
+    "unidade": "2kg",
+    "categoria": "Pet Care",
+    "imagem": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=800&q=80",
+    "descricao": "Substrato absorvente para gaiolas de roedores e pequenos animais."
+  },
+  {
+    "id": "79",
+    "slug": "sache-para-gatos-sabor-frango",
+    "nome": "Sachê para Gatos Sabor Frango",
+    "preco": 4.9,
+    "precoOriginal": 5.9,
+    "unidade": "85g",
+    "categoria": "Pet Care",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/8/33044008.png?im=Resize,width=800",
+    "descricao": "Sachê úmido, sabor frango, alimento completo e balanceado."
+  },
+  {
+    "id": "80",
+    "slug": "tapete-higienico-para-caes",
+    "nome": "Tapete Higiênico para Cães",
+    "preco": 39.9,
+    "unidade": "pacote c/30",
+    "categoria": "Pet Care",
+    "imagem": "https://static.paodeacucar.com/img/uploads/1/109/33054109.png?im=Resize,width=800",
+    "descricao": "Tapete higiênico super absorvente para cães, com gel secante."
+  }
+]
