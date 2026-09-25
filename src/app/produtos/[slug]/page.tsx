@@ -1,6 +1,12 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getAllProducts, getProductBySlug, formatPrice } from "@/lib/products";
+import {
+  getAllProducts,
+  getProductBySlug,
+  getOtherOffers,
+  formatPrice,
+} from "@/lib/products";
+import ProductGrid from "@/components/ProductGrid";
 
 export function generateStaticParams() {
   return getAllProducts().map((product) => ({ slug: product.slug }));
@@ -32,6 +38,7 @@ export default async function ProdutoPage({
   const desconto = emOferta
     ? Math.round((1 - product.preco / product.precoOriginal!) * 100)
     : 0;
+  const outrasOfertas = getOtherOffers(slug, 4);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
@@ -81,6 +88,21 @@ export default async function ProdutoPage({
           </button>
         </div>
       </div>
+
+      {outrasOfertas.length > 0 && (
+        <section className="mt-14" aria-label="Outras ofertas">
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-xl font-bold text-slate-900">Outras ofertas</h2>
+            <Link
+              href="/produtos"
+              className="text-brand-600 font-medium text-sm hover:underline"
+            >
+              Ver tudo
+            </Link>
+          </div>
+          <ProductGrid products={outrasOfertas} />
+        </section>
+      )}
     </div>
   );
 }

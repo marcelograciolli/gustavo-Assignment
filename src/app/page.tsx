@@ -32,6 +32,29 @@ const BANNER_PAIR_2 = [
   },
 ] as const;
 
+const BANNER_GRID_TOP = [
+  {
+    id: "A",
+    src: "/banners/grid-new/banner-a.jpg",
+    alt: "Seu dia a dia mais prático com até 35% off",
+  },
+  {
+    id: "B",
+    src: "/banners/grid-new/banner-b.jpg",
+    alt: "Sabores para compartilhar com até 40% off",
+  },
+  {
+    id: "C",
+    src: "/banners/grid-new/banner-c.jpg",
+    alt: "Refresque seus momentos com até 10% off",
+  },
+  {
+    id: "D",
+    src: "/banners/grid-new/banner-d.jpg",
+    alt: "Brilho e cuidado na cozinha com até 30% off",
+  },
+] as const;
+
 export default function Home() {
   const deals = getDeals();
   const categories = getCategories();
@@ -49,7 +72,7 @@ export default function Home() {
         autoScroll
       />
 
-      <BannerGrid />
+      <BannerGrid banners={BANNER_GRID_TOP} ariaLabel="Ofertas em destaque" />
 
       {categories.slice(0, 2).map((categoria) => (
         <ProductCarousel

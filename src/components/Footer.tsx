@@ -18,11 +18,11 @@ export default function Footer() {
           </p>
           <div className="flex items-start gap-2 text-brand-100/80">
             <Icon name="location_on" className="!text-lg mt-0.5" />
-            <span>Rua das Laranjeiras, 450 — Jardim Félix — Campinas/SP</span>
+            <span>Rua Venâncio Lisboa, 382 - Jardim Nossa Senhora do Carmo - São Paulo/SP</span>
           </div>
           <div className="flex items-start gap-2 text-brand-100/80">
             <Icon name="schedule" className="!text-lg mt-0.5" />
-            <span>Aberto todos os dias, das 7h às 22h</span>
+            <span>Aberto todos os dias, das 8h às 19h</span>
           </div>
         </div>
 
@@ -50,11 +50,11 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="mailto:contato@felixmais.escola.br"
+                href="mailto:contato@felixmais.supermercados.br"
                 className="flex items-center gap-2 text-brand-100/80 hover:text-white break-all"
               >
                 <Icon name="mail" className="!text-lg shrink-0" />
-                contato@felixmais.escola.br
+                contato@felixmais.supermercados.br
               </a>
             </li>
             <li className="flex items-center gap-2 text-brand-100/80">

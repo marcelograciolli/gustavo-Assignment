@@ -46,6 +46,18 @@ export function getDeals(): Product[] {
   return products.filter((product) => product.precoOriginal !== undefined);
 }
 
+/** Outras ofertas para a PDP: prioriza mesma categoria, depois demais ofertas. */
+export function getOtherOffers(slug: string, limit = 4): Product[] {
+  const current = getProductBySlug(slug);
+  const deals = getDeals().filter((p) => p.slug !== slug);
+
+  if (!current) return deals.slice(0, limit);
+
+  const sameCategory = deals.filter((p) => p.categoria === current.categoria);
+  const others = deals.filter((p) => p.categoria !== current.categoria);
+  return [...sameCategory, ...others].slice(0, limit);
+}
+
 export function formatPrice(preco: number): string {
   return preco.toLocaleString("pt-BR", {
     style: "currency",
